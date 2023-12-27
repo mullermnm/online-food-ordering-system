@@ -1,3 +1,5 @@
+![Screenshot (27)](https://github.com/mullermnm/online-food-ordering-system/assets/151052977/de20341f-085a-4f8f-a910-a0a1fee3629b)
+![Screenshot (26)](https://github.com/mullermnm/online-food-ordering-system/assets/151052977/63fcb70f-37b9-41e1-b0b0-ee232839cf66)
 # to run this web on your computer
 # you have to install wampp/xampp
 # in phpMyAdmin page import the hotel.sql and run localhost/hotel
