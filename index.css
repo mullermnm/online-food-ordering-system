@@ -1,0 +1,204 @@
+.jumbotron {
+    margin: 5px !important;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("foodImages/menu-3206749_960_720.jpg");
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100% 107%;
+}
+.jumbotron h2,h3,label,button {
+    font-weight: 900;
+}
+.searchInput {
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 7px;
+    background-color: transparent;
+    outline: none;
+}
+.searchFood {
+    position: relative;
+    width: 50%;
+    overflow: hidden;
+}
+.searchFood label {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    text-align: justify;
+    pointer-events: none;
+    border-bottom: solid 1px #ffffff;
+}
+.searchFood label::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    bottom: -1px;
+    height: 100%;
+    width: 100%;
+    border-bottom: solid 2px chocolate;
+    transform: translateX(-100%);
+    transition: transform 0.6s ease;
+}
+.content-name {
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.3 ease;
+}
+.searchInput:focus + .label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 8px;
+    color: chocolate;
+}
+.searchInput:focus + .label-name::after {
+    transform: translateX(0%);
+}
+.search-btn {
+    margin: 5px;
+    border: dashed 2px chocolate;
+    background-color: transparent;
+}
+.search-btn:hover {
+    transform: scale(1.2);
+    color: #ffffff;
+    animation: bounceBtn 1s 1;    
+}
+@keyframes bounceBtn {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+.start-div {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    padding-top: 200px;
+    height: 500px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 130px;
+}
+.chef-div {
+    font-family: 'Courier New', Courier, monospace;
+    background-image: url("images/chef.jpg");
+    background-size: 60%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 200px;
+    height: 500px;
+    justify-content: space-around;
+    margin-bottom: 50px;
+    margin-top: 130px;
+}
+.start-div-btn {
+    background-color: chocolate;
+    color: #ffffff;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 15px;
+    transition: background 1s;
+}
+.start-div-btn:hover {
+    background-color: inherit;
+    border: 3px solid chocolate;
+    color: chocolate;
+}
+
+.addvertise-holder {
+    text-align: center;
+}
+.addvertise-holder div {
+    margin: 29px;
+    border-radius: 30%;
+    padding: 20px;
+    height: 250px;
+    color: #000000;
+    font-weight: 900;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.speed {
+    background-image: url("svgs/undraw_accept_request_vdsd.svg");
+}
+.security {
+    background-image: url("svgs/undraw_unlock_24mb.svg");
+}
+.reliable {
+    background-image: url("svgs/undraw_fingerprint_swrc.svg");
+}
+.phone-teller {
+    text-align: center;
+    padding: 5px;
+}
+.order-ask {
+    background-image: url("svgs/undraw_noted_pc9f.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding: 6%;
+    color: chocolate;
+    text-shadow: 3px 3px 9px chocolate;
+}
+.phone-svg {
+    padding: 12%;
+    background-image: url("svgs/undraw_mobile_payments_edgf.svg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.profile-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 127px;
+}
+.profile-body img {
+    width: 220px;
+    height: 220px;
+}
+.profile-body button {
+    width: 200px;
+    padding: 8px;
+    background-color: transparent;
+    border: 2px solid rgb(180, 180, 180);
+    border-radius: 9px;
+    color: rgb(180, 180, 180);
+    transition: background 1s ease;    
+    z-index: 1;
+    left: 41%;
+    pointer-events: none;
+}
+.profile-body button:hover {
+    background-color: rgb(180, 180, 180);
+    color: #ffffff;
+}
+.change-image {
+    margin-top: 30px;
+    overflow: hidden;
+    height: 40px;
+    width: 200px;
+}
+#imageInput {
+    position: absolute;
+    margin-top: 9px;
+    opacity: 0;
+    height: 40px;
+    width: 200px;
+    z-index: 0;
+    cursor: pointer;
+}

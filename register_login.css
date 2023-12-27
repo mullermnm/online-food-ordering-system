@@ -1,0 +1,80 @@
+body {
+    background-color: #f6f6f6;
+}
+.location-teller {
+    margin-top: 110px;
+    letter-spacing: 6px;
+    border-bottom: 1px solid rgb(214, 204, 204);
+}
+.register-adds {
+    margin: 0;
+    float: right;
+    top: 38px;
+    letter-spacing: 3px;
+}
+.register-adds img {
+    width: 100%;
+}
+.login-form {
+    border-radius: 15px;
+    top: 38px;
+    padding: 18px;
+    color: #343434;
+    text-align: center;
+}
+.login-form input, label {
+    border: none;
+    float: left;
+}
+@media screen and (max-width:768px) {
+    .login-form {
+        top: 70px;
+    }
+}
+.login-form .login-btn {
+    background-color: chocolate;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 10px; 
+    width: 90px;
+    transition: background 1s ease;
+}
+.login-form .back-home {
+    float: right;
+    font-size: 25px;
+    border: none !important; 
+    color: #343434;
+    background-color: transparent;
+    margin: 0px;
+    width: 10px;
+}
+.login-form .login-btn:hover {
+    background-color: transparent;
+    color: chocolate;
+    border: 3px solid chocolate;
+}
+.gps-taker {
+    border: 1px solid rgb(145, 143, 143);
+    margin: 13px;
+    border-radius: 9px;
+    padding: 17px;
+}
+.gps-btn {
+    width: 290px;
+    background-color: #3583fb;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 15px;
+    transition: background 1s ease;
+}
+.gps-btn:hover {
+    background-color: transparent;
+    border: 2px solid #3583fb;
+    color: #3583fb;
+}
+@media screen and (max-width: 680px) {
+    .login-form {
+        width: 100%;
+        left: 0;
+    }
+}

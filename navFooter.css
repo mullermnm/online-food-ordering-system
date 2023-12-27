@@ -1,0 +1,145 @@
+#collapse-nav ul li {
+    text-decoration: none;
+    font-size: 14px;
+}
+.navbar {
+    font-family: monospace;
+    margin: 0px !important;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ebebeb;
+    text-align: center;
+    padding: 20px;
+    left: 0;
+    right: 0;
+     
+    
+}
+.navbar a {
+    color: #3f4042;
+}
+.dropdown .dropdown-toggle {
+    cursor: pointer;
+}
+.dropdown .dropdown-toggle:hover {
+    transform: scale(1.06);
+    text-decoration: none;
+}
+.nav-order, .dropdown-toggle, .navbar-brand {
+    transition: transform 0.3s ease;
+}
+.navbar .nav-order:hover {
+    background-color: transparent !important;
+    transform: scale(1.06);
+}
+.navbar-brand {
+    font-family: Muli, Futura, Helvetica, Arial, sans-serif;
+    padding: 0px;
+    height: 0px;
+}
+.navbar .navbar-brand:hover {
+    transform: scale(1.1);
+}
+.navbar-toggle {
+    border-color: #3f4042;
+}
+.navbar-toggle .icon-bar {
+    background-color: #3f4042 !important;
+}
+.nav-about {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #f7b157;
+    border-radius: 42px;
+    margin-right: 15px;
+    height: 42px;
+    width: 120px;
+    transition: background 1s ease;
+}
+.nav-about:hover {
+    background-color: #f7b157 !important;
+    color: #ffffff;
+}
+.nav-login {
+    border: 2px solid #3583fb;
+    border-radius: 42px;
+    height: 42px;
+    width: 120px;
+    transition: background 1s ease;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-nav>li>a {
+        padding: 10px;
+    }
+}
+.nav-login:hover {
+    background-color: #3583fb !important;
+    color: #ffffff;
+}
+.user-image {
+    border-radius: 50%;
+}
+@media screen and (max-width: 768px) {
+    .nav-about, .nav-login {
+        left: 30%;
+        margin: 5px;
+    }
+    .dropdown-menu li {
+        text-align: center;
+    }
+}
+footer {
+    background-color: rgb(75, 70, 70);
+    opacity: 0.8;
+    letter-spacing: 3px;
+    padding: 14px;
+    bottom: 0;
+    margin-top: 70px;
+}
+.logo {
+    margin-top: 30px;
+}
+.about-us a, .logo a {
+    color: #ffffff;
+
+}
+.about-us {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: #ffffff;
+}
+.about-us a {
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+.about-us a:hover {
+    transform: scale(1.05);
+}
+.comment form {
+    color: #ffffff;
+    padding: 5px;
+    justify-content: space-around;
+    display: flex;
+}
+.comment form textarea {
+    resize: none;
+    color: black;
+}
+.comment button {
+    color: black;
+}
+.copyright {
+    bottom: 0;
+    margin-top: 30px;
+    color: #ffffff;
+    text-align: center;
+}
+@media screen and (max-width: 768px) {
+    footer {
+        margin-top: 70px;
+    }
+    .logo, .about-us, .copyright, .comment {
+        margin-top: 40px;
+    }
+}

@@ -1,0 +1,86 @@
+body {
+    background-color: #f6f6f6;
+}
+.main-part {
+    margin-top: 127px;  
+}
+.location-teller {
+    letter-spacing: 5px;
+    border-bottom: 1px solid rgb(214, 204, 204);
+    margin-bottom: 30px;
+}
+.upload-food {
+    margin: 0;
+}
+.upload-adds {
+    letter-spacing: 3px;
+}
+.upload-adds img {
+    height: 130px;
+    width: 100%;
+}
+.upload-food-btn {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #3583fb;
+    background-color: transparent;
+    border-radius: 12px;
+    margin: 15px;
+    height: 42px;
+    width: 120px;
+    transition: background 1s ease;
+}
+.locations {
+    color: #3583fb;
+}
+.delete-order {
+    padding: 12px;
+    border-radius: 12px;
+    background-color: transparent;
+    border: #3583fb solid 2px;
+    transition: background 1s ease-in;
+}
+.delete-order:hover {
+    background-color: #3583fb;
+
+}
+.upload-food-btn:hover {
+    background-color: #3583fb !important;
+    color: #ffffff;
+
+}
+.all-orders {
+    margin-top: 127px;
+    background-color: #f6f6f6;
+}
+.ordered-foods {
+    display: flex;
+    flex-direction: column;
+    margin: 29px;
+    text-align: center;
+    border-radius: 9px;
+    background-color: #ffffff;
+    transition: box-shadow 1s ease;
+}
+.ordered-foods:hover {
+    box-shadow: 1px 1px 9px rgb(163, 157, 157);
+}
+.ordered-foods img {
+    width: 100%;
+    height: 130px;
+}
+.modal {
+    background-color: #f6f6f6;
+    width: 300px;
+    height: 200px;
+    
+}
+.modal img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+}

@@ -1,0 +1,145 @@
+.about-all {
+    z-index: -1;
+    margin-top: 100px;
+    min-height: 60vh;
+}
+.about-nav {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    position: fixed;
+}
+.about-nav ul {
+    width: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: larger;
+}
+
+.location {
+    position: absolute;
+    z-index: -2;
+    background-color: aqua;
+    transform: scale(2);
+    transition: all 0.5s ease;
+}
+.about-nav ul li {
+    list-style: none;
+}
+.about-nav ul li a {
+    color: #343434;
+}
+.developer, .company, .admin {
+    min-height: 100vh;
+    width: inherit;
+    text-align: center;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.about-me {
+    border: 6px solid #343434;
+    border-radius: 15px;
+    z-index: 0;
+    text-align: left;   
+}
+.about-me2 {
+    border: 6px solid #343434;
+    border-radius: 15px;
+    z-index: 1;
+    padding: 0px;
+    left: 47%;
+    top: 20%;
+    background-color: #ffffff;
+    text-align: center;
+    position: absolute;
+    float: left;
+}
+.about-me2 textarea {
+    resize: none;
+    border-radius: 10px;
+}
+.about-me2 button {
+    background-color: transparent;
+    border: 2px solid chocolate;
+    margin: 5px;
+    transition: background 1s ease;
+}
+.about-me2 button:hover {
+    background-color: chocolate;
+    color: #f6f6f6;
+}
+.comments {
+    margin: 30px;  
+    font-family: fantasy;
+    border-left: 3px solid #343434;
+}
+.individual-comments {
+    border-bottom: 1px solid #f6f6f6;
+}
+.individual-comments img {
+    width: 50px;
+    height: 50px;
+}
+.individual-comments .commenter {
+    display: flex;
+    flex-direction: row;
+}
+.individual-comments h4 {
+    font-weight: 500;
+    margin: 10px;
+}
+.individual-comments div {
+    width: 100%;
+    font-family: cursive;
+    color: darkolivegreen;
+}
+
+.social-media span {
+    font-size: 20px;
+    margin-left: 7px;
+}
+.fb-twit {
+    background-color: #2A4B7C;
+    color: #ffffff;
+}
+@media screen and (max-width: 780px) {
+    .about-all {
+        flex-direction: column;
+    }
+    .about-me {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    .about-me2 {
+        left: 0;
+        top: 0;
+        width: 100%;
+        position: inherit;
+    }
+}
+.find-who {
+    text-align: center;
+    letter-spacing: 3px;
+    margin-top: 127px;
+}
+.find-who h2 {
+    font-weight: 600;
+}
+.show-admin {
+    margin-top: 30px;  
+    border: 5px solid #343434;
+    border-radius: 9px;
+}
+.show-hotels {
+    border: 5px solid #343434;
+    border-radius: 9px;
+    border-left: none;
+}
+.hotels {
+    border: 1px solid #343434;
+    border-radius: 7px;
+    margin: 9px;
+}
